@@ -2,11 +2,11 @@
 
 ## Data We Collect
 
-Our application uses email sign-in with a One-Time Password (OTP) solely for authentication purposes. We **do not** collect or store any personal information beyond the email address required to log you in and identify your account within the authentication system. No additional profile data, usage details (beyond what's necessary for basic app function), or other personal information is gathered or stored.
+Our application uses email sign-in with a One-Time Password (OTP) solely for authentication purposes. We **do not** collect or store any personal information beyond the email address required to log you in and identify your account within the authentication system. No additional profile data or other personal information is gathered or stored.
 
 ## Deleting Your Account
 
-Since the only data associated with your account is the email address used for login, "deleting your account" means removing this email address from our authentication system. To permanently delete your authentication record, please navigate to the account page within the app and initiate the deletion process.
+To permanently delete your authentication record, please navigate to the settings page within the app and initiate the deletion process. We retain a limited set of data (e.g. subscription history) necessary for basic app function.
 
 ## Subscriptions
 
