@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - MioLingo</title>
+  <link rel="icon" type="image/png" href="icon.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Styles for h2 and h3 to match the support page's section titles */
+    .content-section h2 {
+      font-size: 1.875rem;
+      /* text-3xl */
+      font-weight: 600;
+      /* font-semibold */
+      margin-bottom: 1.5rem;
+      /* mb-6 */
+      color: #4f46e5;
+      /* text-indigo-600 */
+      border-bottom-width: 2px;
+      border-color: #c7d2fe;
+      /* border-indigo-200 */
+      padding-bottom: 0.5rem;
+      /* pb-2 */
+    }
+
+    .content-section h3 {
+      font-size: 1.5rem;
+      /* text-2xl */
+      font-weight: 600;
+      /* font-semibold */
+      margin-top: 2rem;
+      /* mt-8 */
+      margin-bottom: 1rem;
+      /* mb-4 */
+      color: #374151;
+      /* text-gray-700 */
+    }
+
+    .content-section ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+      /* ml-6 */
+      margin-bottom: 1rem;
+      /* mb-4 */
+    }
+
+    .content-section li {
+      margin-bottom: 0.5rem;
+      /* mb-2 */
+    }
+
+    .content-section p {
+      margin-bottom: 1rem;
+      /* mb-4 */
+      line-height: 1.75;
+      /* leading-relaxed from body, but good to be explicit */
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800 leading-relaxed">
+
+  <header class="bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-lg">
+    <div class="container mx-auto px-6 py-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">Privacy Policy</h1>
+      <p class="text-lg md:text-xl opacity-90">MioLingo</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-12">
+
+    <section class="content-section bg-white p-8 rounded-lg shadow-xl">
+
+      <p class="text-gray-600 text-sm">Last updated: April 17, 2025</p>
+      <p class="mt-4">Your privacy is important to us. This policy explains what information we collect and how we use it.</p>
+
+      <h2>Information We Collect</h2>
+      <p>We collect the minimal information necessary to provide and improve our service:</p>
+      <ul>
+        <li><strong>Audio Data:</strong> Your audio is streamed to our server for real-time translation. We <strong>do not</strong> store your audio data or any transcribed or translated text.</li>
+        <li><strong>Email Address:</strong> We collect your email address solely for authentication purposes when you sign up or log in using the email.</li>
+        <li><strong>Subscriptions:</strong> If you subscribe through the App Store or Google Play, we store basic subscription information to verify your purchase. We <strong>do not</strong> collect or store any payment details (those are handled securely by Apple and Google).</li>
+      </ul>
+
+      <h2>How We Share Your Information</h2>
+      <p>We value your privacy and limit how we share your data:</p>
+      <ul>
+        <li><strong>Audio Processing:</strong> To provide the core translation functionality, our servers may send the audio data you provide to third-party service providers (such as Google and OpenAI) for processing. These providers process the audio to perform the requested translation. We require these providers to maintain the confidentiality and security of your data. We recommend reviewing their privacy policies:
+          <ul>
+            <li>Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-indigo-500 hover:text-indigo-700 hover:underline">https://policies.google.com/privacy</a></li>
+            <li>OpenAI: <a href="https://privacy.openai.com/policies" target="_blank" rel="noopener noreferrer" class="text-indigo-500 hover:text-indigo-700 hover:underline">https://privacy.openai.com/policies</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>Changes</h2>
+      <p>We may update this policy from time to time. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+      <h3 class="mt-8">Contact Us</h3>
+      <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+      <ul>
+        <li>By email: <a href="mailto:dev@miolingo.com" class="text-indigo-500 hover:text-indigo-700 hover:underline">dev@miolingo.com</a></li>
+        <li>Via our support page: <a href="https://miolingo.com/support" class="text-indigo-500 hover:text-indigo-700 hover:underline">MioLingo Support Page</a></li>
+      </ul>
+
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+    <div class="container mx-auto px-6">
+      <p>&copy; <span id="currentYear"></span> Zhaoming Zhang. All rights reserved.</p>
+      <p class="text-sm mt-1">
+        MioLingo - Your Privacy Matters.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Support - MioLingo</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .faq-item summary {
+      cursor: pointer;
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      background-color: #f9fafb;
+      /* Tailwind gray-50 */
+      border-radius: 0.5rem;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .faq-item summary:hover {
+      background-color: #f3f4f6;
+      /* Tailwind gray-100 */
+    }
+
+    .faq-item div {
+      padding: 1rem;
+      border-top: 1px solid #e5e7eb;
+      /* Tailwind gray-200 */
+    }
+
+    /* Add a little arrow icon for the summary */
+    .faq-item summary::after {
+      content: ' ▼';
+      font-size: 0.8em;
+      float: right;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .faq-item[open] summary::after {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800 leading-relaxed">
+
+  <header class="bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-lg">
+    <div class="container mx-auto px-6 py-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">Get Support</h1>
+      <p class="text-lg md:text-xl opacity-90">MioLingo</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-12">
+
+    <section id="contact" class="mb-12 bg-white p-8 rounded-lg shadow-xl">
+      <h2 class="text-3xl font-semibold mb-6 text-indigo-600 border-b-2 border-indigo-200 pb-2">Contact Us</h2>
+      <p class="mb-4 text-lg">
+        Have a question or need assistance? The best way to reach us is by email.
+      </p>
+      <p class="text-lg">
+        <strong class="font-semibold">Support Email:</strong>
+        <a href="mailto:dev@miolingo.com" class="text-indigo-500 hover:text-indigo-700 hover:underline transition duration-150 ease-in-out">dev@miolingo.com</a>
+      </p>
+    </section>
+
+    <section id="faq" class="mb-12 bg-white p-8 rounded-lg shadow-xl">
+      <h2 class="text-3xl font-semibold mb-8 text-indigo-600 border-b-2 border-indigo-200 pb-2">Frequently Asked Questions (FAQ)</h2>
+
+      <div class="space-y-6">
+
+        <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
+          <summary class="text-gray-700">What platforms does MioLingo support?</summary>
+          <div class="text-gray-600">
+            <p>Currently, MioLingo is available for IOS and Android.</p>
+          </div>
+        </details>
+
+        <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
+          <summary class="text-gray-700">Is my data secure?</summary>
+          <div class="text-gray-600">
+            <p>We take data security very seriously. All user data is encrypted and stored securely. You can read more in our <a href="https://miolingo.com/privacy" class="text-indigo-500 hover:text-indigo-700 hover:underline">privacy policy</a>.</p>
+          </div>
+        </details>
+
+        <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
+          <summary class="text-gray-700">How do I report a bug or suggest a feature?</summary>
+          <div class="text-gray-600">
+            <p>We appreciate your feedback! You can report bugs or suggest new features by emailing us at <a href="mailto:dev@miolingo.com" class="text-indigo-500 hover:text-indigo-700 hover:underline">dev@miolingo.com</a>.</p>
+            <p class="mt-2">For technical users, you can also submit an issue on our <a href="https://github.com/zmzhang8/MioLingo/issues" class="text-indigo-500 hover:text-indigo-700 hover:underline">GitHub Issues page</a>.</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+    <div class="container mx-auto px-6">
+      <p>&copy; <span id="currentYear"></span> Zhaoming Zhang. All rights reserved.</p>
+      <p class="text-sm mt-1">
+        MioLingo - Making your life easier.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>
