@@ -45,12 +45,16 @@
     .faq-item[open] summary::after {
       transform: rotate(180deg);
     }
+
+    .text-brand-primary { color: #D95F29; }
+    .hover\:text-brand-dark:hover { color: #B5471F; }
+    .bg-brand-primary { background-color: #D95F29; }
   </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800 leading-relaxed">
 
-  <header class="bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-lg">
+  <header class="bg-brand-primary text-white shadow-lg">
     <div class="container mx-auto px-6 py-12 text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-2">Get Support</h1>
       <p class="text-lg md:text-xl opacity-90">MioLingo</p>
@@ -66,7 +70,7 @@
       </p>
       <p class="text-lg">
         <strong class="font-semibold">Support Email:</strong>
-        <a href="mailto:dev@miolingo.com" class="text-indigo-500 hover:text-indigo-700 hover:underline transition duration-150 ease-in-out">dev@miolingo.com</a>
+        <a href="mailto:dev@miolingo.com" class="text-brand-primary hover:text-brand-dark  hover:underline transition duration-150 ease-in-out">dev@miolingo.com</a>
       </p>
     </section>
 
@@ -85,15 +89,15 @@
         <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
           <summary class="text-gray-700">Is my data secure?</summary>
           <div class="text-gray-600">
-            <p>We take data security very seriously. All user data is encrypted and stored securely. You can read more in our <a href="https://miolingo.com/privacy" class="text-indigo-500 hover:text-indigo-700 hover:underline">privacy policy</a>.</p>
+            <p>We take data security very seriously. All user data is encrypted and stored securely. You can read more in our <a href="https://miolingo.com/privacy" class="text-brand-primary hover:text-brand-dark  hover:underline">privacy policy</a>.</p>
           </div>
         </details>
 
         <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
           <summary class="text-gray-700">How do I report a bug or suggest a feature?</summary>
           <div class="text-gray-600">
-            <p>We appreciate your feedback! You can report bugs or suggest new features by emailing us at <a href="mailto:dev@miolingo.com" class="text-indigo-500 hover:text-indigo-700 hover:underline">dev@miolingo.com</a>.</p>
-            <p class="mt-2">For technical users, you can also submit an issue on our <a href="https://github.com/zmzhang8/MioLingo/issues" class="text-indigo-500 hover:text-indigo-700 hover:underline">GitHub Issues page</a>.</p>
+            <p>We appreciate your feedback! You can report bugs or suggest new features by emailing us at <a href="mailto:dev@miolingo.com" class="text-brand-primary hover:text-brand-dark  hover:underline">dev@miolingo.com</a>.</p>
+            <p class="mt-2">For technical users, you can also submit an issue on our <a href="https://github.com/zmzhang8/MioLingo/issues" class="text-brand-primary hover:text-brand-dark  hover:underline">GitHub Issues page</a>.</p>
           </div>
         </details>
 
